@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function show(phrase){
+            document.write(phrase);
+        }
+        var i = 0;
+        var maior = 0;
+        var menor = 10000000000000;
+        for(var n = 1; n<=10; n++){
+            var n1 = parseInt(prompt("Digite um número: "));
+            i+=n1;
+            if(n1>=maior){
+                maior = n1;
+                // atribuição de n1 para a variável "maior"
+            }
+            // criar variavel com numero grande fora do for e criar condição dentro do for com atribuição como na  de cima
+            if(n1<menor){
+                menor = n1;
+                // atribuição de n1 para menor 
+            }
+
+        }
+        // a
+        show("A soma dos valores resulta em " +i+"<br>");
+        show("O maior valor digitado é "+maior+ " <br>");
+        show("O menor valor digitado é "+menor+"<br>");
+    </script>
+</body>
+</html>

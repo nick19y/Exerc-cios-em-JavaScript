@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let i = 1;
+        let numero1 = 0;
+        do{
+            var numero = parseFloat(prompt("Digite um valor maior ou igual a 0 "))
+            if(numero>=0){
+                numero1+=numero
+            }
+            var encerrar = prompt("Deseja encerrar a operação? (S/N)")
+            if(encerrar == 'S'){
+                alert("Operação encerrada");
+                break;
+            }
+        } while(i<=2)
+        document.write("A soma dos números maiores ou iguais a zero resulta em "+ numero1)
+    </script>
+</body>
+</html>

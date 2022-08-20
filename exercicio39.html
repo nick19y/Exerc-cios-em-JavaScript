@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function skipline(){
+            document.write("<br>");
+        }
+        function show(phrase){
+            document.write(phrase);
+            skipline();
+        }
+        var salas = parseInt(prompt("Digite a quantidade de classes existentes na escola."))
+        var soma_salas = 0;
+        var maior = 0;
+        var menor = 10000000000;
+        for(var i1 = 1; i1<= salas; i1++){
+                var i = 1;  
+                var numero1 = 0;
+                var quantidade = parseInt(prompt("Digite a quantidade de alunos na classe "+i1+":"));
+                do{
+                    var numero = parseFloat(prompt("Digite a nota do aluno: "));
+                    numero1 += numero
+                    i++;
+                    var media = numero1/(i-1)
+                    if(media >= maior){
+                        maior = media;
+                    }
+                    if(media<=menor){
+                        menor = media;
+                    }
+                }   while (i<=quantidade)
+                soma_salas += media;
+                alert("A média da classe equivale a " + media);
+            }
+            show("A soma das médias da escola equivale a "+soma_salas);
+            show("A maior média da escola equivale a "+ maior);
+            show("A menor média da escola equivale a "+ menor);
+    </script>
+    </script>
+</body>
+</html>

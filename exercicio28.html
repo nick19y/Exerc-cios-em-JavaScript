@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var accumulator = 0;
+        var i = 1;
+        var typedNumber = parseFloat(prompt("Digite um número para saber se ele é primo ou não: "));
+        while(i<=typedNumber){
+            var division_remainder = typedNumber%i;
+            if(division_remainder==0){
+                accumulator++;
+                console.log(accumulator);
+            }
+            if(accumulator>2){
+                document.write("O número digitado não é primo");
+                break;
+            }
+            i++;
+        }
+        if(accumulator==2){
+            document.write("O número digitado é primo");
+        }
+    </script>
+</body>
+</html>

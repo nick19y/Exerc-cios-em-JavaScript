@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function skipline(){
+            document.write("<br>");
+        }
+        function show(phrase){
+            document.write(phrase);
+        }
+        // nunca declarar variável dentro de uma função
+        let i = 1;
+        let acumulador = 0;
+        do{
+            var item = prompt("Digite o código do item solicitado: ")
+            // não criar condição de 
+            switch(item){
+                case '100':
+                    var quantidade = parseInt(prompt("Digite a quantidade do item solicitado: "));
+                    preco = 1.1 * quantidade;
+                    acumulador += preco;
+                    break;
+                    
+                case '101':
+                    var quantidade = parseInt(prompt("Digite a quantidade do item solicitado: "));
+                    preco = 1.3 * quantidade;
+                    acumulador += preco;
+                    break;
+                
+                case '102':
+                    var quantidade = parseInt(prompt("Digite a quantidade do item solicitado: "));
+                    preco = 1.5 * quantidade;
+                    acumulador += preco;
+                    break;
+            
+                case '103':
+                    var quantidade = parseInt(prompt("Digite a quantidade do item solicitado: "));
+                    preco = 1.1 * quantidade;
+                    acumulador += preco;
+                    break;
+        
+                case '104':
+                    var quantidade = parseInt(prompt("Digite a quantidade do item solicitado: "));
+                    preco = 1.3 * quantidade;
+                    acumulador += preco;
+                    break;
+    
+                case '105':
+                    var quantidade = parseInt(prompt("Digite a quantidade do item solicitado: "));
+                    preco = 1 * quantidade;
+                    acumulador += preco;
+                    break;
+
+                default:
+                    document.write("Operação inválida")
+                }
+            alert("O preço total do pedido é R$ " + acumulador);
+            var encerrar = prompt("Deseja encerrar a operação(S/N)")
+        // SEMPRE USAR DOIS IGUAIS EM CONDIÇÕES CCOMO A DE BAIXO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            if(encerrar == 'S'){
+                alert("Operação encerrada")
+                break;
+            }
+        } while(i<=2)
+        // não precisou do while
+    </script>
+</body>
+</html>

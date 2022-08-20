@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let vetor1 = []
+        let vetor2 = []
+        let vetor3 = []
+        let vetor4 = []
+
+        for(var i = 0; i<9; i++){
+            vetor1.push(parseFloat(prompt('Acrescente um valor ao 1º vetor: ')))
+        }
+        for(var j = 0; j<9; j++){
+            vetor2.push(parseFloat(prompt('Acrescente um valor ao 2º vetor: ')))
+        }
+        for(var x = 0; x<9; x++){
+            vetor3.push(parseFloat(prompt('Acrescente um valor ao 3º vetor: ')))
+        }
+
+        // o segundo valor do slice funciona como um length, e o primeiro é a posição de referência
+        let divisao1 = vetor1.slice(0,3)
+        vetor4.push(divisao1)
+        let divisao2 = vetor2.slice(3,6)
+        vetor4.push(divisao2)
+        let divisao3 = vetor3.slice(6,9)
+        vetor4.push(divisao3)
+        document.write(vetor4)
+        console.log(vetor1.slice(0,3))
+    </script>
+</body>
+</html>

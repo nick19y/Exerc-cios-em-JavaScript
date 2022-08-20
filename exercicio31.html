@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function skipline(){
+            document.write("<br>");
+        }
+        function show(phrase){
+            document.write(phrase);
+            skipline();
+        }
+        let i = 1;
+        let number1 = 0;
+        let amount = parseInt(prompt("Type the amount of students in the class: "));
+        do{
+            let number = parseFloat(prompt("Enter the student grade: "));
+            number1 += number
+            i++;
+        }   while (i<=amount)
+        average = number1/(i-1)
+        show("The average between the grades of the class equals " + average);
+    </script>
+</body>
+</html>

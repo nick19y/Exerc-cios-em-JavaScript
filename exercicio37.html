@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function skipline(){
+            document.write('<br>')
+        }
+        function show(phrase){
+            document.write(phrase)
+        }
+        var n = 1;
+            do{for(var n1 = 1; n1 <=10; n1++){
+                var n2 = n1 * n;
+                show(n +" X "+ n1 +" = " +n2+ "<br><br>");
+            }
+            n++;
+            skipline();
+        } while(n<=10)
+    </script>
+</body>
+</html>

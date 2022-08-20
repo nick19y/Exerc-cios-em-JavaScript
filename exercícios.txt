@@ -1,0 +1,172 @@
+Etec Sales Gomes
+
+1) As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem 
+compradas pelo menos 12. Escreva um programa que leia o número e maçãs compradas, calcule 
+e escreva o custo total da compra. 
+
+2) Ler as notas da 1a. e 2a. avaliações de um aluno. Calcular a média aritmética simples e escrever 
+uma mensagem que diga se o aluno foi ou não aprovado (considerar que nota igual ou maior que 
+6 o aluno é aprovado). Escrever também a média calculada. 
+
+3) Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma mensagem que diga se 
+ela poderá ou não votar este ano (não é necessário considerar o mês em que a pessoa nasceu, 
+considerar pelo menos 16 anos para votar). 
+
+4) Ler dois valores (considere que não serão lidos valores iguais) e escrever o maior deles. 
+
+5) Ler dois valores (considere que não serão lidos valores iguais) e escrevê-los em ordem 
+crescente. 
+
+6) A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que trabalhar 
+mais de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 
+50%. Escreva um algoritmo que leia o número de horas trabalhadas em um mês, o salário por hora 
+e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham 
+sido trabalhadas (considere que o mês possua 4 semanas exatas). 
+
+7) Ler o salário fixo e o valor das vendas efetuadas pelo vendedor de uma empresa. Sabendo-se 
+que ele recebe uma comissão de 3% sobre o total das vendas até R$ 1.500,00 mais 5% sobre o 
+que ultrapassar este valor, calcular e escrever o seu salário total. 
+
+8) Desenvolva um programa que receba dois valores, se o primeiro valor for maior que o segundo, 
+exibir o dobro do 1º valor digitado, caso contrário, exibir a metade do 2º valor digitado.
+
+9) Desenvolva um programa que receba 4 valores, exibir a soma dos dois maiores.
+
+10) Escreva um algoritmo para imprimir os números de 1 (inclusive) a 10 (inclusive) em ordem 
+crescente. 
+
+11) Escreva um algoritmo para imprimir os números de 1 (inclusive) a 10 (inclusive) em ordem 
+decrescente. 
+
+12) Escreva um algoritmo para imprimir os 10 primeiros números inteiros maiores que 100. 
+
+13) Ler um valor N e imprimir todos os valores inteiros entre 1 (inclusive) e N (inclusive). Considere 
+que o N será sempre maior que ZERO.
+
+14) Escreva um algoritmo que calcule e imprima a tabuada do 8 (1 a 10). 
+
+15) Escreva um algoritmo que calcule e imprima a tabuada de um valor que o usuário digitou (1 a 
+10). 
+
+16) Escreva um algoritmo que receba 10 valores e no final exiba a soma; (No máximo 3 variáveis)
+
+17) Escreva um algoritmo para ler 10 números. Todos os números lidos com valor inferior a 40 
+devem ser somados. Escreva o valor final da soma efetuada. 
+
+18) Ler 10 valores e escrever quantos desses valores lidos são NEGATIVOS. 
+
+19) Desenvolva um programa que faça o usuário informar 100 valores. No final, o programa deverá 
+exibir: 
+a. a soma de todos os valores digitados 
+b. maior valor digitado 
+c. menor valor digitado
+
+20) Desenvolva um programa que receba um valor e na sequência exiba o resultado do fatorial. 
+(Utilizar o FOR)
+5 -> 5 * 4 * 3 * 2 * 1 -> 120
+7 -> 5040
+
+21) Desenvolva um programa que receba 100 valores, cada vez que o usuário digitar um valor, 
+exibir se ele é par ou ímpar.
+
+22) (Considerar somente valores positivos) Desenvolva um programa que receba 100 valores, cada 
+vez que o usuário digitar um valor, exibir se ele é par ou ímpar. No final exibir:
+*soma dos valores pares
+*média dos valores pares
+*soma dos valores ímpares
+*média dos valores ímpares.
+
+23) Ler 10 valores, calcular e escrever a média aritmética desses valores lidos. 
+
+24) Ler 10 valores e escrever quantos desses valores lidos estão no intervalo [10,20] 
+(incluindo os valores 10 e 20 no intervalo) e quantos deles estão fora deste intervalo. 
+
+25) Ler o número de alunos existentes em uma turma e, após isto, ler as notas destes alunos, 
+calcular e escrever a média aritmética dessas notas lidas.
+
+26) Desenvolva um algoritmo que enquanto o usuário nâo digitar um entre 0 e 10, fique pedindo 
+um novo valor.
+
+27) Desenvolva um algoritmo que calcule a média de dois valores. (Forçar o usuário a digitar duas 
+notas entre 0 e 10).
+
+28) Desenvolva um algoritmo que receba um valor e exiba se ele é ou não primo.
+
+29) Ler 10 valores, calcular e escrever a média aritmética desses valores lidos. 
+
+30) Ler 10 valores e escrever quantos desses valores lidos estão no intervalo [10,20] 
+(inlcuindo os valores 10 e 20 no intervalo) e quantos deles estão fora deste intervalo. 
+
+31) Ler o número de alunos existentes em uma turma e, após isto, ler as notas destes alunos, 
+calcular e escrever a média aritmética dessas notas lidas.
+
+32) Desenvolva um algoritmo que enquanto o usuário nâo digitar um entre 0 e 10, fique pedindo 
+um novo valor.
+
+33) Desenvolva um algoritmo que calcule a média de dois valores. (Forçar o usuário a digitar duas 
+notas entre 0 e 10).
+
+34) Desenvolva um algoritmo que receba um valor e exiba se ele é ou não primo.
+
+35) O cardápio de uma lanchonete é o seguinte: 
+Especificação Preço unitário 
+100 Cachorro quente 1,10 
+101 Bauru simples 1,30 
+102 Bauru c/ovo 1,50
+103 Hamburger 1,10 
+104 Cheeseburger 1,30 
+105 Refrigerante 1,00 
+Escrever um algoritmo que leia o código do item pedido, a quantidade e calcule o subtotal. No final 
+de cada escolha, perguntar se o usuário deseja mais algum item: (S/N). Quando o usuário não 
+desejar mais nenhum item, exibir o valor total da compra.
+
+36) Desenvolva um programa que fique recebendo valor enquanto o valor for maior ou igual a 0. 
+No final, exiba a soma e a média dos valores digitados.
+
+37) Escreva um algoritmo que imprima a tabuada (de 1 a 10) para os números de 1 a 10.
+38) Escreva um algoritmo que imprima as seguintes sequências de números: (1, 1 2 3 4 5 6 7 8 9 
+
+10) (2, 1 2 3 4 5 6 7 8 9 10) (3, 1 2 3 4 5 6 7 8 9 10) (4, 1 2 3 4 5 6 7 8 9 10) e assim sucessivamente, 
+até que o primeiro número (antes da vírgula), também chegue a 10.
+
+39) Desenvolva um programa que receba o número de salas, o número de alunos de cada sala e 
+as notas de cada aluno separado por sala. No final da inserção das notas de cada sala, exibir a 
+média da sala. No final da inserção das notas de todas as salas, mostrar:
+Média de todas as salas
+Maior média
+Menor média
+
+40) Desenvolva um programa que receba 5 valores e no final exibir:
+Quantos valores são primos
+A soma dos valores primos
+A média dos valores primos
+
+41) Faça um programa que leia um vetor de 10 número. Leia um número X. Conte os múltiplos de 
+um número inteiro X com base no Vetor e mostre-os na tela. 
+
+42) Leia um vetor de 12 posições e em seguida ler também dois valores X e Y quaisquer 
+correspondentes a duas posições no vetor. Ao final seu programa deverá escrever a soma dos 
+valores encontrados nas respectivas posições X e Y. 
+
+43) Declare um vetor de 10 posições e o preencha com os 10 primeiros números impares 
+(começando do 1) e o escreva. 
+
+44) Leia um vetor de 16 posições e troque os 8 primeiros valores pelos 8 últimos e vice-e-versa. 
+Escreva ao final o vetor obtido. 
+
+45) Leia um vetor de 20 posições e em seguida um valor X qualquer. Seu programa devera fazer 
+uma busca do valor de X no vetor lido e informar a posição em que foi encontrado ou se não foi 
+encontrado. 
+
+46) Leia um vetor de 40 posições. Contar e escrever quantos valores pares ele possui. 
+
+47) Leia um vetor de 40 posições e atribua valor 0 para todos os elementos que possuírem valores 
+negativos. 
+
+48) Leia dois vetores de 20 posições e calcule um outro vetor contendo, nas posições pares, os 
+valores do primeiro e, nas posições impares, os valores do segundo. 
+
+49) Leia 3 vetores de 9 posições e crie outro com o 1º terço do primeiro, o segundo 2º terço do 
+segundo e o ultimo terço do 3º. Escrever o vetor resultante ao final. 
+
+50) Leia um vetor de 10 posições e verifique se existem valores iguais e os escreva.

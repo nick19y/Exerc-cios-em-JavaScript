@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function skipline(){
+            document.write("<br>");
+        }
+        function show(phrase){
+            document.write(phrase);
+            skipline();
+        }
+        var par = 0;
+        var impar = 0;
+        var cont1 = 0;
+        var cont2 = 0;
+        for(var i=1; i<=100; i++){
+            var valor = parseFloat(prompt("Digite um valor: "));
+            var resto = valor%2;
+            if(resto == 0){
+                alert("Número par");
+                par += valor;
+                cont1++;
+                var media_par = par/cont1;
+            }
+            else{
+                alert("Número ímpar");
+                impar += valor;
+                cont2++;
+                var media_impar = impar/cont2;
+            }
+        }
+        show("A soma dos números pares resulta em "+ par);
+        show("A soma dos números ímpares resulta em " +impar);
+        show("A média dos números pares equivale a "+media_par);
+        show("A média dos números ímpares equivale a "+ media_impar);
+        </script>
+</body>
+</html>

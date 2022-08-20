@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let vetor = []
+        let vetor1 = []
+        let i = 0
+            do{
+            for(var j = 0; j<5; j++){
+                vetor.push(parseFloat(prompt("Acrescente um valor ao primeiro vetor: ")))
+                vetor1.push(parseFloat(prompt("Acrescente um valor ao segundo vetor: ")))
+                document.write(vetor[i] +' ',vetor1[j]+' ')
+                i++
+                }
+            } while(i<5)
+            document.write('<br>Vetor 1:  '+vetor+'<br>')
+            document.write('Vetor 2:  '+vetor1+'<br>')
+    </script>
+</body>
+</html>

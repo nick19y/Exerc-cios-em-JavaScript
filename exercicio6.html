@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var h = parseFloat(prompt("Informe a quantidade de horas trabalhadas por semana do funcionário: "));
+        var sh = parseFloat(prompt("Informe o valor do salário/hora do funcionário: R$"));
+        he = h - 40;
+        a = he*(0.5*sh);
+        s = (sh*h*4)+a
+        document.write("Com essa quantidade de horas trabalhadas por semana, o salário mensal do funcionário resulta em: R$" +s);
+    </script>
+</body>
+</html>

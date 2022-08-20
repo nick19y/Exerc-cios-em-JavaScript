@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function skipline(){
+            document.write("<br>");
+        }
+        function show(phrase){
+            document.write(phrase);
+            skipline();
+        }
+        let amount = 0;
+        let counter = 0;
+        let sum = 0;
+        for(i = 1; i<=5; i++){
+        var number = parseFloat(prompt("Type a number"))
+            for(let j = 1; j<=number; j++){
+                if(number%j ==0){
+                    counter++;
+                }
+            }
+            if(counter == 2){
+                sum+=number;
+                amount++;
+            }
+            counter = 0;
+        }
+        let average = sum/amount;
+        show(amount+" Prime numbers were entered");
+        show("The sum of this values equals "+ sum);
+        show("The average between those values equals "+ average);
+    </script>
+</body>
+</html>

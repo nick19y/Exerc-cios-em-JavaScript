@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var v1 = parseFloat(prompt("Digite o 1° valor"));
+        var v2 = parseFloat(prompt("Digite o 2° valor"));
+        var v3 = parseFloat(prompt("Digite o 3° valor"));
+        var v4 = parseFloat(prompt("Digite o 4° valor"));
+        v6 = v1 + v2;
+        v7 = v1 + v3;
+        v8 = v1 + v4;
+        v9 = v2 + v3;
+        v10 = v2 + v4;
+        v11 = v3 + v4;
+        if(v1>v3 && v2>v4){
+            document.write(v6);
+        }
+        else if(v1>v2 && v3>v4){
+            document.write(v7);
+        }
+        else if(v1>v2 && v4>v3){
+            document.write(v8);
+        }
+        else if(v2>v1 && v3>v4){
+            document.write(v9);
+        }
+        else if(v2>v1 && v4>v3){
+            document.write(v10);
+        }
+        else if(v3>v2 && v4>v1){
+            document.write(v11);
+        }
+    </script>
+</body>
+</html>

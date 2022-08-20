@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function skipline(){
+            document.write("<br>");
+        }
+        function show(phrase){
+            document.write(phrase);
+            skipline();
+        }
+        let i = 1;
+        let number1 = 0;
+        do{
+            let number = parseFloat(prompt("Type a number: "));
+            number1 += number
+            console.log(i);
+            i++;
+            console.log(i)
+            // aqui o i resulta em 11, oq faz com que o comando pare de ser executado
+        }   while (i<=10)
+        average = number1/(i-1)
+        // como o i resulta sempre em um número maior do que a condição permite, foi colocado um "-1" para que a divisão 
+        // seja feita corretamente
+        show("The average between the entered numbers equals " + average);
+    </script>
+</body>
+</html>

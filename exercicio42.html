@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let vetor = []
+        for(let i = 0; i<12; i++){
+            vetor.push(parseFloat(prompt('Acrescente um valor ao vetor: ')));
+        }
+        let valor1 = parseInt(prompt('Digite a posição do primeiro valor a ser somado (0-11): '))
+        let valor2 = parseInt(prompt('Digite a posição do segundo valor a ser somado (0-11): '))
+        let soma = vetor[valor1] + vetor[valor2]
+        document.write('A soma dos dois valores equivale a '+ soma);
+    </script>
+</body>
+</html>
